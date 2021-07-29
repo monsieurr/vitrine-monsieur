@@ -4,17 +4,11 @@ import '../styles/main.css'
 import { Helmet } from "react-helmet"
 import ImageGallery from "../components/image_gallery"
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
 
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main className="pageStyle">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Monsieur's Space</title>

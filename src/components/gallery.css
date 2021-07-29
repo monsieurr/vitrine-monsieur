@@ -1,3 +1,5 @@
+
+
 .image-grid {
     display: grid;
 
@@ -22,10 +24,21 @@
     grid-column-end: span 4;
   }*/
 
+.pageStyle {
+  color: #232129;
+  padding: 96px;
+  font-family: "-apple-system, Roboto, sans-serif, serif";
+}
+
 @media (max-width: 960px) {
   .image-grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+  }
+
+  
+  .pageStyle {
+    padding: 12px;
   }
 }
 
