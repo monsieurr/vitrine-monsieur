@@ -1,0 +1,100 @@
+html {
+    background-image: url('../assets/blob-scene-haikei.svg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    background-attachment: fixed;
+    /* responsive height */
+}
+
+main {
+    margin: 0 auto;
+}
+
+h2, h3 {
+    color:rgb(114, 84, 97);
+}
+
+.workTitle {
+    font-family: 'Lato';
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    text-align: center;
+    font-size: 3rem;
+}
+
+@media (max-width: 600px) {
+    .workTitle {
+        font-size: 1rem;
+    }
+}
+
+/* The animation code */
+@keyframes color-change {
+      0% {
+        color: rgb(132, 0, 255);
+      }
+      50% {
+        color: rgb(255, 0, 106);
+      }
+      100% {
+        color: rgb(132, 0, 255);
+
+      }
+}
+
+.socialLinksSection ul {
+    display: flex;
+    padding: 1px;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.soundCloudIconStyle {
+    filter: saturate(300%)
+}
+
+.soundCloudIconStyle:hover {
+    filter: saturate(600%)
+}
+
+.soundCloudIconStyle:active {
+    filter: sepia(600%)
+}
+
+.twitchIconStyle:hover {
+    filter: saturate(400%)
+}
+
+.twitchIconStyle:active {
+    filter: sepia(400%)
+}
+
+.twitterIconStyle:hover {
+    filter: saturate(400%)
+}
+
+.twitterIconStyle:active {
+    filter: sepia(400%)
+}
+
+.instaIconStyle:hover {
+    filter: saturate(400%)
+}
+
+.instaIconStyle:active {
+    filter: sepia(400%)
+}
+
+.ltbIconStyle:hover {
+    filter: saturate(400%)
+}
+
+.ltbIconStyle:active {
+    filter: sepia(400%)
+}
